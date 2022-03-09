@@ -3,8 +3,9 @@
 // tb size  768px -> md
 // pc size 1440px -> xl
 
-.card__image {
-  overflow: hidden;
+.card__img {
+  object-fit: cover;
+  transform: scale(1.5);
   @include mq(md) {
   }
   @include mq(xl) {

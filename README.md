@@ -2,7 +2,7 @@
 
 ## 概要
 
-- バッジ(New)、画像、タイトル、説明、カテゴリ、日付
+- 三角バッジ(New)、画像、タイトル、説明、カテゴリ、日付
 - レスポンシブ対応済
 - コンポーネント（共通部品）として使用可能。
 
@@ -15,6 +15,7 @@
 
 - レイアウトを設定する場合は、class を追加してそちらで設定して下さい。
 - そうしないと共通部品として使えなくなります。
+- クラス「card\_\_badge」で、inlin-block にすると上に隙間ができる。丸バッジの位置によって使い分けが必要？
 
 ## 使い方
 
@@ -23,14 +24,9 @@
 
 ## イメージ画像
 
-<img width="415" alt="image" src="https://user-images.githubusercontent.com/99580997/157412356-72f00b70-1300-4bbf-a269-8a51767faae7.png">
-<img width="781" alt="image" src="https://user-images.githubusercontent.com/99580997/157412450-4f3b7cd9-bd7f-4229-91e2-5d3e9262fe31.png">
-<img width="1237" alt="image" src="https://user-images.githubusercontent.com/99580997/157412539-dcc3cb21-fdd9-435f-b60c-aeda24417cd5.png">
-
-
 ## portfolio url:
 
-- https://css-md-0019.wtb.cfbx.jp/
+- https://css-md-0020.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
@@ -39,8 +35,7 @@
 
 ## 更新履歴
 
-- 2022/3/9 初版 完成（レスポンス対応済。表示崩れ解消。）
-- 2022/3/9 初版 完成（レスポンス時のバッジの表示崩れがきになる）
+- 2022/3/9 初版 作成完了（レスポンシブ対応済）
 - 2022/3/9 初版 作成中
 
 ## 環境・使い方

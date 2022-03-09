@@ -185,29 +185,30 @@ select::-ms-expand {
   font-size: 0.875rem;
   font-weight: 700;
   color: #fff;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .card__badge {
   position: relative;
-  display: inline-block;
+  display: block;
   background-color: #ffea2e;
 }
 .card__badge::after {
   content: "";
   position: absolute;
   z-index: 1;
-  top: -10px;
-  top: -0.625rem;
-  left: -10px;
-  left: -0.625rem;
+  top: 0px;
+  top: 0rem;
+  left: 0px;
+  left: 0rem;
   width: 0px;
   width: 0rem;
   height: 0px;
   height: 0rem;
-  border: 30px;
-  border: 1.875rem;
+  border-width: 60px 60px 0px 0px;
+  border-width: 3.75rem 3.75rem 0rem 0rem;
   border-style: solid;
-  border-color: #e25c00;
-  border-radius: 1.875rem;
+  border-color: #e25c00 transparent transparent transparent;
 }
 
 .card__category {
@@ -222,6 +223,15 @@ select::-ms-expand {
 }
 .card__date {
   display: inline-block;
+}
+.card__image {
+  overflow: hidden;
+}
+.card__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .card__inner {
   display: inline-block;
