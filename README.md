@@ -10,6 +10,10 @@
 
 - margin は使用してません。
 - padding は必要最低限に使用してます。
+- tabletはpcサイズが縮小されて表示されます。
+- スマホファースト
+- rem 記述
+- ルートフォントを vw で設定していることから PC サイズのレイアウトをタブレットで表示させることが出来ます（rem で書いた場合のみ）。
 
 ## 注意事項
 
@@ -23,6 +27,10 @@
 - css: src -> module -> card をコピペ。
 
 ## イメージ画像
+<img width="404" alt="image" src="https://user-images.githubusercontent.com/99580997/157425662-97502aa8-dbc3-49a9-b924-293766905a93.png">
+<img width="784" alt="image" src="https://user-images.githubusercontent.com/99580997/157425716-3ad1d86c-c77b-46b9-9cd9-a3c8e8193b7f.png">
+<img width="1244" alt="image" src="https://user-images.githubusercontent.com/99580997/157425794-4aada1a3-c4f9-4b23-a5bc-72981eac4342.png">
+
 
 ## portfolio url:
 
@@ -47,6 +55,4 @@
 
 ## 備考
 
-- スマホファースト
-- rem 記述
-- ルートフォントを vw で設定していることから PC サイズのレイアウトをタブレットで表示させることが出来ます（rem で書いた場合のみ）。
+
