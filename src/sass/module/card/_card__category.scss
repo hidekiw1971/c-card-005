@@ -1,0 +1,13 @@
+@use "global" as *;
+// sp size  375px -> sp
+// tb size  768px -> md
+// pc size 1440px -> xl
+
+.card__category {
+  display: inline-block;
+  background-color: #ffea2e;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

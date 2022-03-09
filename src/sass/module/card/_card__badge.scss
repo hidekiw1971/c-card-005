@@ -1,0 +1,29 @@
+@use "global" as *;
+// sp size  375px -> sp
+// tb size  768px -> md
+// pc size 1440px -> xl
+
+.card__badge {
+  position: relative; // card__badge::afterの親要素（位置決めの基準となる）
+  display: inline-block;
+  background-color: #ffea2e;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// .card__badgeで擬似要素を作成して、丸バッジを作成する。
+.card__badge::after {
+  content: "";
+  position: absolute; // card__baddeを親要素として、absoluteで位置を調整する。
+  z-index: 1;
+  top: rem(-10); // バッジ位置調整
+  left: rem(-10); // バッジ位置調整
+  width: rem(0); // 基礎となるwidth: 0;としてその周りにborderで飾っていく。
+  height: rem(0); // 基礎となるheight: 0;としてその周りにborderで飾っていく。
+  border: rem(30); // 丸バッジの大きさを指定する。
+  border-style: solid; // borderの線のスタイルを指定する。
+  border-color: #e25c00; // バッジの色を指定する。
+  border-radius: rem(30); //バッジの角を丸くする。
+}
